@@ -1,0 +1,342 @@
+
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F4F7C5;
+}
+nav{
+    height: 25%;
+}
+
+/* Divs */
+
+#divtitile{
+    position: relative;
+    justify-content: center;
+    margin-top: 10,1152%;
+}
+#div-card-calculadora{
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    width: 66.1244%;
+    height: 51.3444%;
+    left: 16.9377%;
+    top: 25.6081%;
+    background: #EDCF93;
+    border-style: none;
+    border-radius: 100px;
+}
+#div-card-explicacao{
+    position: absolute;
+    display: block;
+    visibility: visible;
+    width: 66.1244%;
+    height: 51.3444%;
+    left: 16.9377%;
+    top: 25.6081%;
+    background: #EDCF93;
+    border-style: none;
+    border-radius: 100px;
+}
+.divresultado{
+    position: absolute;
+    width: 18.3732%;
+    height: 6.1459%;
+    margin-top: 4.9%;
+    margin-left: 66.5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #F7E399;
+    border-style: none;
+    border-radius: 100px;  
+}
+
+/* div content */
+
+.divcontentnav{
+    position: absolute;
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+.divcontent{
+    position: absolute;
+    display: block;
+    height: 75%;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.contentlogo{
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+
+/* div layout */
+
+#div1{
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    left: -20.8803%;
+    top: -34.5710%;
+    background: #76C521;
+    border-style: none;
+    border-radius: 50%;
+}
+#div2{
+    position: absolute;
+    width: 313.4928px;
+    height: 313.4928px;
+    margin-left: 8%;
+    top: -17.9287%;
+    background: #E0D996;
+    border-style: none;
+    border-radius: 50%;
+}
+#div3{
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: -6%;
+    top: 35.3764%;
+    background: #F3D568;
+    border-style: none;
+    border-radius: 50%;
+}
+#div4{
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    left: 88.3062%;
+    top: -7.6824%;
+    background: #E5BB66;
+    border-style: none;
+    border-radius: 50%;
+}
+#div5{
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 83.5645%;
+    top: -9.2189%;
+    background: #C2ED93;
+    border-style: none;
+    border-radius: 50%;
+}
+#div6{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 96.4066%;
+    top: 18.8040%;
+    background: #5C9919;
+    border-style: none;
+    border-radius: 50%;
+}
+#div7{
+    position: absolute;
+    width: 408px;
+    height: 408px;
+    left: -9.9712%;
+    top: 76.9526%;
+    background: #D4CA6D;
+    border-style: none;
+    border-radius: 50%;
+}
+#div8{
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 10.4258%;
+    top: 92.2535%;
+    background: #C58E21;
+    border-style: none;
+    border-radius: 50%;
+}
+#div9{
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: -2.8277%;
+    top: 71.8309%;
+    background: #A9E566    ;
+    border-style: none;
+    border-radius: 50%;
+}
+#div10{
+    position: absolute;
+    width: 668px;
+    height: 668px;
+    left: 75.6459%;
+    top: 74.3918%;
+    background: #C8BC46;
+    border-style: none;
+    border-radius: 50%;
+}
+#div11{
+    position: absolute;
+    width: 313px;
+    height: 313px;
+    left: 92.5167%;
+    top: 60.5877%;
+    background: #76C521;
+    border-style: none;
+    border-radius: 50%;
+}
+#round{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    background-color: rgba(222, 168, 58, 1);
+}
+#round2{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+    background-color: rgba(222, 168, 58, 1);
+}
+
+
+/* FONTS */
+.textres{
+    font-family: 'IBM Plex Mono';
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.textlogo{
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    color: #FFF;
+}
+.texttitle{
+    font-family: 'Concert One', cursive;
+    font-size: 56px;
+    line-height: 44px;
+    text-align: center;
+    color: #5C9919;
+}
+.textnav{
+    margin-top: 9%;
+    padding-top: auto;
+    padding-left: auto;
+    font-family: 'IBM Plex Mono';
+    font-size: 32px;
+}
+.textexplicacao{
+    font-family: 'Sen', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    align-items: center;
+}
+
+/* INPUT´S   e output*/
+
+
+input[type="number"]{
+    position: absolute;
+    width: 18.3732%;
+    height: 6.1459%;
+    margin-left: 17.6811%;
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-style: none;
+    border-radius: 100px;
+}
+#button{
+    position: absolute;
+    width: 18.3732%;
+    margin-top: 16.5%;
+    margin-left: 17.6811%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #90DE3A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-style: none;
+    border-radius: 100px;
+    font-family: 'IBM Plex Mono';
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btnnav{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    float: top;
+    border: none;
+    background-color: #EDCF93;
+    font-family: 'Sen', sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+}
+input[placeholder]{
+    font-family: 'IBM Plex Mono';
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.65);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+#btnexpicacao1{
+    border-style: none;
+    border-radius: 100px 35px 0px 0px;
+}
+#btncalculadora1{
+    border-style: none;
+    border-radius: 0px 100px 0px 80px ;
+    background-color: rgba(222, 168, 58, 1);
+}
+#btnexplicacao2{
+    border-style: none;
+    border-radius: 100px 0px 80px 0px;
+    background-color: rgba(222, 168, 58, 1);
+}
+#btncalculadora2{
+    border-style: none;
+    border-radius: 35px 100px 0px 0px;
+}
+
+
+
+
+
+
+
+
+/*input[type="text"]
+{
+    position: absolute;
+    width: 18.3732%;
+    height: 6.1459%;
+    margin-top: 2.9%;
+    margin-left: 69.5%;
+    background-color: #F7E399;
+    border-style: none;
+    border-radius: 100px;  
+}
+output
+{
+    position: absolute;
+    width: 18.3732%;
+    height: 6.1459%;
+    margin-top: 2.9%;
+    margin-left: 69.5%;
+    background-color: #F7E399;
+    border-style: none;
+    border-radius: 100px;  
+}*/

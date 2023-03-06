@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=IBM+Plex+Mono:wght@300&family=Sen&display=swap" rel="stylesheet">
+    <title>SOLVED!</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="divtitile">
+        <p class="texttitle">
+            Equações do <br>
+            Segundo Grau
+        </p>
+    </div>
+    <div id="div-card-explicacao">
+        <nav>
+            <div class="divcontentnav">
+                <div id="round2"></div>
+                <input type="button" value="Explicação" id="btnexpicacao1" class="btnnav">
+                <input type="button" value="Calculadora" id="btncalculadora1" class="btnnav" style="margin-left:50%"> <!--style="margin-left: 69.5%;"-->
+            </div>
+        </nav>
+        <div class="divcontent">
+            <p class="textexplicacao">
+                Toda equação do tipo ax² + bx + c = 0 é uma equação do 2° grau. Uma das formas de resolvê-la é através da Fórmula de Bhaskara, em é representada por: <scam style="font-weight: bold">-b +- √Δ/ 2a</scam>, em que “Δ” (delta) é definido como: <scam style="font-weight: bold">b²-4ab 2ª</scam>
+            </p>
+            <p class="textexplicacao">
+                Desta maneira, vamos obter dois resultados: X1 e X2. Clique em “Calculadora” para acessar a calculadora de equações do segundo grau.
+            </p>
+        </div>
+    </div>
+    <div id="div-card-calculadora">
+        <nav>
+            <div class="divcontentnav">
+                <div id="round"></div>
+                <input type="button" value="Explicação"  id="btnexplicacao2" class="btnnav">
+                <input type="button" value="Calculadora" id="btncalculadora2" class="btnnav" style="margin-left: 50%;">
+            </div>
+        </nav>
+        <input type="number" placeholder="DIGITE A" id="valora" value="" style="margin-top: 2%">
+        <input type="number" placeholder="DIGITE B" id="valorb" value="" style="margin-top: 7.5%;">
+        <input type="number" placeholder="DIGITE C" id="valorc" value="" style="margin-top: 13%;">
+        <input type="button" value="CALCULAR" onclick="calcular()" id="button" class="btncalcular" style="margin-top: 20.5%;">
+        <div class="divresultado">
+            <p id="valorx1" class="textres">X1</p>
+        </div>
+        <div class="divresultado" style="margin-top: 11.2918%;">
+            <p id="valorx2" class="textres">X2</p>
+        </div>
+    </div>
+    
+    <div id="div3"></div>
+    <div id="div2"></div>
+    <div id="div1"></div>
+    <div id="div5"></div>
+    <div id="div6"></div>
+    <div id="div4"></div>
+    <div id="div8"></div>
+    <div id="div9"></div>
+    <div id="div7"></div>
+    <div id="div11"></div>
+    <div id="div10"></div>
+    <div class="contentlogo">
+        <a href="landpage.html" style="text-decoration: none;">
+            <p class="textlogo">SOLVED!</p>
+        </a>
+    </div>
+</body>
+</html>
+
+
+<!--<input type="text" placeholder="x1" id="valorx1"><br><br><br>
+<input type="text" placeholder="x2" value="" id="valorx2">-->
+
+<!--<div class="divresultado">
+            <p id="valorx1">salve</p>
+        </div>
+        <div class="divresultado" style="margin-top: 100px;">
+            <p id="valorx2">salve</p>
+        </div>-->
